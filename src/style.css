@@ -175,3 +175,42 @@ button#submit-button{
     color: white;
     background-color: rgb(8, 94, 242);
 }
+
+
+@media screen and (max-width:512px){
+
+    p#left-para{
+        width: 55%;        
+    }
+    
+    .main-middle{
+        display: block;        
+    }
+
+    .block1, .block2, .block3 {
+        overflow: hidden;
+        width: 75%;
+        
+    }
+
+    .wrapper{
+        display: block;
+       
+    }
+    
+    h2#foot-head{
+      text-align: center;
+      margin: auto;
+    }
+
+    .links{
+        width: 70%;
+        margin-right: 10px;
+    }
+  ul{
+      padding-right: 2%;
+  }
+    .logo{
+        width: 30%;
+    }
+}
