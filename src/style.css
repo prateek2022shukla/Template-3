@@ -41,5 +41,137 @@ ul li{
 }
 
 h2#site-logo{
-    margin-left: 40px;
+    margin-left: 12%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-top{
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+    margin-top: 3%;
+    background-color: rgb(213, 209, 209);
+   
+    padding: 20px;
+    
+ 
+}
+
+h2#main-top-head{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px auto 20px 20px;
+   
+}
+
+p#left-para{
+    width: 25%;
+    /* border: 1px solid red; */
+    margin-left: 20px;
+    margin-top: 30px;
+    text-align: justify;
+}
+
+button#learn{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 20px;
+   padding: 3px 8px 3px 8px;
+  
+}
+
+.main-middle{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+}
+.block1, .block2, .block3{
+    overflow: hidden;
+    width: 25%;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+ .card1, .card2, .card3{
+    width: 90%;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    background-color:rgb(213, 209, 209);
+    margin: auto;
+    margin-top: 10px;
+   
+}
+
+#card-head,#card-para {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+#card-para{
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+    padding: 8px;
+    width: 80%;
+    margin: auto;
+}
+
+.learn-link{
+    margin: auto;
+    color: grey;
+    /* text-decoration: none; */
+    font-family: sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+.subscribe{
+    /* display: flex; */
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+    margin-top: 50px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: rgb(213, 209, 209);
+
+}
+
+.wrapper{
+    display: flex;
+    margin:auto;
+    margin:15px auto;
+    text-align: center;
+}
+
+h2#foot-head{
+    padding: 10px;
+    padding-right: 20px;
+    margin-left: 20%;
+    font-family: sans-serif;
+}
+
+input#input-box{
+    width: 30%;
+    padding-top: 5px 8px;
+    /* padding-bottom: 5px; */
+    padding-left: 10px;
+}
+
+button#submit-button{
+    width: 20%;
+    padding: 4px 8px;
+    margin-left: 2%;
+    outline: none;
+    border: none;
+    font-family: monospace;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(8, 94, 242);
 }
